@@ -1,0 +1,41 @@
+* {
+    font-family: "Arial Black" (sans-serif);
+}
+
+body {
+    margin:0;
+    background-image: linear-gradient( to bottom, #164b69 20%, #446479, #5f89bc 90%);
+    background-repeat: no-repeat
+}
+
+h2 {
+    color: white;
+    font-size: 2vh;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+ }
+
+.box {
+    display: flex;
+    margin-top: 15px;
+    width: 25vw;
+    height: 40vh;
+    border: 2px solid #05050550;
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-evenly;
+}
+
+.image {
+    width: 25vw;
+    height: 30vh;
+}
