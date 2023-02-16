@@ -13,6 +13,11 @@ h2 {
     font-size: 2vh;
 }
 
+p {
+    color: azure;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 .nav-bar {
     display: flex;
     flex-direction: row;
@@ -24,11 +29,11 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-color: black;
+    background-color: rgb(45, 119, 102);
     color: white;
     font-size: 1.5vh;
     margin-top: 15px;
-    width: 25vw;
+    width: 15vw;
     height: 40vh;
     border: 2px solid #05050550;
 }
@@ -41,8 +46,8 @@ h2 {
 }
 
 .image {
-    width: 25vw;
-    height: 30vh;
+    width: 15vw;
+    height: 20vh;
 }
 
 .box:hover {
